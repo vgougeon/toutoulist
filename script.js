@@ -39,7 +39,10 @@ function newDog() {
     dogs.push(new Dog());
     updateDisplay()
 }
-
+function closeFeedback() {
+    const container = document.querySelector("#feedback")
+    container.innerHTML = ""
+}
 function feedback() {
     const container = document.querySelector("#feedback")
     container.innerHTML = ""
