@@ -125,7 +125,7 @@ function feedback() {
 
     const tbody = document.createElement("tbody")
     table.appendChild(tbody)
-    for(let item of todo) {
+    for(let item of todo.sort((a, b) =>  Number(a.done) - Number(b.done))) {
         if(item.removed) continue;
         const row = document.createElement("tr")
         const name = document.createElement("td")
