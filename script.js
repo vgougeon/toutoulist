@@ -30,6 +30,9 @@ function add() {
         updateDisplay()
     }
 }
+function keyPress(event) {
+    if(event.key === "Enter") add()
+}
 
 function newDog() {
     dogs.push(new Dog());
