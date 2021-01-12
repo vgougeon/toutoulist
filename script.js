@@ -27,6 +27,7 @@ function add() {
     let task = document.querySelector("#taskName")
     if (task.value) {
         selected.addTodo(task.value)
+        task.value = ""
         updateDisplay()
     }
 }
