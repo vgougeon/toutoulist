@@ -9,6 +9,7 @@ body {
     font-weight: 300;
     padding-bottom: 5rem;
     overflow-y: scroll;
+    background: #f6fbff;
 }
 * {
     box-sizing: border-box;
@@ -30,6 +31,12 @@ section {
 }
 .flex {
     display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.shrink-0 {
+    flex-shrink: 0;
 }
 .ml-auto {
     margin-left: auto;
@@ -70,6 +77,7 @@ button:hover {
     padding: 1rem 1rem;
     display: flex;
     flex-direction: column;
+    background: white;
 }
 
 .todoList > div button {
@@ -91,6 +99,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    
 }
 th {
     font-weight: 500;
@@ -99,6 +108,7 @@ th {
 td {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: .5rem;
+    background: white;
 }
 
 .done {

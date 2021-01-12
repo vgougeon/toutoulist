@@ -1,4 +1,3 @@
-let todo = []
 let dogs = []
 
 function updateDisplay() {
