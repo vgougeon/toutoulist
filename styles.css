@@ -24,6 +24,12 @@ h2 {
     margin-top: 1rem;
     font-size: 1.2rem;
 }
+h3 {
+    font-weight: 300;
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
 section {
     margin-top: 2rem;
     width: 100%;
@@ -110,7 +116,9 @@ td {
     padding: .5rem;
     background: white;
 }
-
+tr td:last-child {
+    width: 100px;
+}
 .done {
     background: rgb(166, 238, 166);
 }

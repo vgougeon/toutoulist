@@ -12,7 +12,6 @@ class Dog {
     }
 
     render() {
-        
         const button = document.createElement('button')
         if(selected.name === this.name) button.classList = "selected"
         button.innerText = this.name
