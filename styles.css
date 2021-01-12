@@ -134,13 +134,23 @@ td {
     padding: .5rem;
     background: white;
 }
+tr.done td {
+    background: transparent;
+}
 tr td:last-child {
     width: 100px;
 }
 .done {
-    background: rgb(166, 238, 166);
+    background: rgb(166, 238, 166) !important;
 }
 
 .selected {
     background: rgb(166, 211, 238);
+}
+
+#feedback {
+    background: white;
+    padding: 1rem;
+    border: 1px solid rgba(80, 80, 150, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
