@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toutouliste</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <h1>Toutouliste</h1>
+        <span>La todolist</span>
+        <div class="flex">
+            <input type="text" id="taskName" placeholder="Nom de la tâche">
+            <button onclick="add()">Ajouter une tâche</button>
+        </div>
+        <h2>En cours (<span id="pendingNb"></span>)</h2>
+        <div id="todoPending" class="todoList">
+            
+        </div>
+        <h2>Terminées (<span id="doneNb"></span>)</h2>
+        <div id="todoDone" class="todoList">
+            
+        </div>
+        <button onclick="feedback()">Compte rendu</button>
+    </section>
+    <section id="feedback"></section>
+    <script src="script.js"></script>
+</body>
+</html>
