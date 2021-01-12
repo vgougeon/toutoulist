@@ -35,6 +35,24 @@ section {
     width: 100%;
     max-width: 1000px;
 }
+.header {
+    display: flex;
+    align-items: center;
+}
+.header span {
+    margin-left: .2rem;
+}
+@keyframes disco {
+    0% { fill: rgb(77, 255, 77) }
+    25% { fill: rgb(80, 169, 253) }
+    50% { fill: rgb(227, 88, 255) }
+    75% { fill: rgb(255, 183, 90) }
+    100% { fill: rgb(77, 255, 77) }
+}
+svg {
+    margin-right: 1rem;
+    animation: 1s disco linear infinite;
+}
 .flex {
     display: flex;
 }
