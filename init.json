@@ -1,1 +1,10 @@
-["Aller au parc", "Jouer à la baballe", "Lancer des bâtons", "Laisser le toutou faire ses besoins"]
+[
+    {
+        "name": "Balthazar le toutou",
+        "todo": ["Aller au parc", "Jouer à la baballe", "Lancer des bâtons", "Laisser le toutou faire ses besoins"]
+    },
+    {
+        "name": "Choupinet",
+        "todo": ["Dire bonjour"]
+    }
+]

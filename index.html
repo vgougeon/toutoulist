@@ -13,6 +13,11 @@
         <h1>Toutouliste</h1>
         <span>La todolist</span>
         <div class="flex">
+            <div class="flex" id="dogs"></div>
+            <button class="done" onclick="newDog()">+ Nouveau chien</button>
+        </div>
+        
+        <div class="flex">
             <input type="text" id="taskName" placeholder="Nom de la tâche">
             <button onclick="add()">Ajouter une tâche</button>
         </div>
@@ -27,6 +32,8 @@
         <button onclick="feedback()">Compte rendu</button>
     </section>
     <section id="feedback"></section>
+    <script src="src/Dog.js"></script>
+    <script src="src/Todo.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -103,3 +103,7 @@ td {
 .done {
     background: rgb(166, 238, 166);
 }
+
+.selected {
+    background: rgb(166, 211, 238);
+}
