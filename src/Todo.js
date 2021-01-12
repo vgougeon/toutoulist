@@ -10,6 +10,7 @@ class Todo {
 
     render() {
         this.container = document.createElement('div')
+        if(this.done) this.container.classList = "done"
         
         const status = document.createElement('span')
         const toggle = document.createElement('button')
